@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1>Logo</h1>
+    <a href="index.html"><button>Home</button></a>
+    <a href="crud.html"><button>CRUD</button></a>
+    <a href="api.html"><button>API</button></a>
+    <a href="login.html"><button>Login</button></a>
+  </div>
+
+  <div class="content">
+    <h2>Create User</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <input type="email" id="email" placeholder="Email">
+    <input type="number" id="number" placeholder="Phone Number">
+    <button onclick="createUser()">Submit</button>
+
+    <div id="userList"></div>
+  </div>
+
+  <script src="crud.js"></script>
+</body>
+</html>
